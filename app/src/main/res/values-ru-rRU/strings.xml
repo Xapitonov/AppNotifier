@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Авторское право 2020 Брэйден Фармер
+
+     Лицензировано по лицензии Apache, версия 2.0 (далее 'Лицензия');
+     вы не можете использовать этот файл, кроме как в соответствии с Лицензией.
+     Вы можете получить копию Лицензии по адресу
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Если не требуется действующим законодательством или не согласовано письменно, программное обеспечение,
+     распространяемое по Лицензии, распространяется на условиях 'КАК ЕСТЬ',
+     БЕЗ ГАРАНТИЙ И УСЛОВИЙ КАКОГО-ЛИБО РОДА, явных или подразумеваемых.
+     См. Лицензию для конкретного языка, регулирующего права и
+     ограничения в рамках Лицензии.
+-->
+
+<resources>
+    <string name='app_name'>AppNotifier</string>
+    <string name='app_name_debug'>AppNotifier (Отладка)</string>
+
+    <plurals name='apps_updated_header'>
+        <item quantity='one'>%d приложение обновлено</item>
+        <item quantity='other'>%d приложений обновлено</item>
+    </plurals>
+
+    <plurals name='apps_updated_footer'>
+        <item quantity='one'>%d другое</item>
+        <item quantity='other'>%d других</item>
+    </plurals>
+
+    <string name='apps_updated_1'>%s</string>
+    <string name='apps_updated_2'>%1$s и %2$s</string>
+    <string name='apps_updated_3'>%1$s, %2$s и %3$s</string>
+    <string name='apps_updated_4'>%1$s, %2$s, %3$s и %4$s</string>
+    <string name='apps_updated_other'>%1$s, %2$s, %3$s, %4$s и %5$s</string>
+
+    <string name='app_updates'>Обновленные приложения</string>
+    <string name='app_installs'>Установленные приложения</string>
+    <string name='foreground_service'>Фоновый сервис</string>
+
+    <string name='listening_for_app_updates_header'>Прослушивание установок и обновлений приложений</string>
+    <string name='listening_for_app_updates_content'>Вы можете отключить это уведомление, нажав здесь. Уведомления по-прежнему будут появляться для установки и обновления ваших приложений.</string>
+
+    <string name='successfully_installed'>Успешно установлено</string>
+
+    <string name='notification_types'>Показывать мне уведомления для&#8230;</string>
+    <string name='notify_installs'>Новые установки приложений</string>
+    <string name='notify_updates'>Обновления существующих приложений</string>
+
+    <string name='update_sources'>&#8230;когда я устанавливаю или обновляю приложения из</string>
+    <string name='notify_play_store'>Google Play Маркет</string>
+    <string name='notify_other_sources'>Сторонние источники (установка)</string>
+
+    <string name='about_header'>О AppNotifier</string>
+    <string name='about_content'>AppNotifier возвращает отсутствующие уведомления об обновлениях и установках приложений Google Play.\n\n&#169; %d Брэйден Фармер\n\nНажмите здесь, чтобы проверить обновления или оставить оценку!</string>
+
+    <string name='notification_text_style'>Стиль текста уведомления</string>
+    <string name='show_uninstall_button_title'>Показывать кнопку удаления в уведомлении</string>
+    <string name='show_uninstall_button_summary'>(для вновь установленных приложенийй)</string>
+    <string name='uninstall'>Удалить</string>
+
+    <string-array name='notification_text_style_entries'>
+        <item>Оригинальный (подражать Play Маркет)</item>
+        <item>Расширенный (показывать больше деталей)</item>
+    </string-array>
+
+</resources>
